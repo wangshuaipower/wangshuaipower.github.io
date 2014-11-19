@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<title>
+  Projects |  Yun Cheng's Personal Website
+</title>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-responsive.min.css">
+<style type="text/css">
+.prettyprint ol.linenums > li { list-style-type: decimal; }
+.nav { }
+.nav li { float: left; width: 70px; }
+.content { padding: 30px 0; }
+body, h1, h2, h3, h4 { font-family: "Fjalla One","Georgia","Helvetica Neue",Arial,sans-serif;}
+header { width: 100%; height: 80px;}
+blockquote p { font-size: 14px; }
+
+/*oyyd hacked*/
+.padding-left-small{padding-left: 20px}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header class="header">
+    <h1 class="site_title">Research <small></small></h1>
+    <ul class="nav pull-right">
+      <li><a href="/">Home</a></li>
+      <li style="width:100px"><a href="/publications">Publications</a></li>
+      <li style="width:85px"><a href="/projects"><strong>Projects</strong></a></li>
+      <li><a href="/resume">Resume</a></li>
+      <li><a href="/links">Links</a></li>
+    </ul>
+  </header>
+
+
+<hr />
+
+
+  <h3><strong>Current Projects</strong></h3>
+
+
+<div class="row"><p>
+  <div class="col-md-3">
+    <img src="figs/pam.png" width="280"/>
+  </div>
+  <div class="col-md-9">
+    <div class="row"><div class="col-md-12">
+        <strong>PAM: Pervasive Air-Quaity Monitoring</strong> 
+        <br>
+        We approach the challenging problem of accurate and affordable PM2.5 monitoring from a novel cloud-based data analytics perspective. By carefully designing and building our own PM2.5 monitors, we are able to obtain reasonably accurate PM2.5 measurement in real-time and at low cost. And by aggregating their data, plus other types of data at the cloud, we are able to learn and create model for particulate matter, which in turn helps us calibrate sensors, and infer PM2.5 concentrations.
+    </div></div>
+    <div class="row"><div class="col-md-12">
+        <a href="http://air-scientific.com/">[website]</a> | <a href="../publications/sensys14-final95.pdf">[SenSys14 Paper]</a> | <a href="../publications/ICONIP14.pdf">[ICONIP14 Paper]</a> | <a href="../publications/hotmobile14.pdf">[HotMobile14 Demo]</a>
+      </div>
+    </div>
+    <ul class="padding-left-small">
+      <li>Designed and implemented the PAM cloud.</li>
+      <li>Designed and implemented the online calibration models, deployed PAM devices and did the evaluation experiment.</li>
+      <li>Designed and implemented some APIs for 3rd party developers.</li>
+      <li>Currently, doing the data analytics based on the dense deployment to predict the future readings, find the root causes, etc.</li>
+    </ul>
+    <p></p>
+  </div>
+</p></div>
+
+<br>
+<br>
+
+<div class="row"><p>
+  <div class="col-md-3">
+    <img src="figs/QiLoc.png" width="280"/>
+  </div>
+  <div class="col-md-9">
+    <div class="row"><div class="col-md-12">
+        <strong>QiLoc: A Qi-Wireless Based Platform for Robust User-Initiated Indoor Location Services</strong> 
+        <br>
+        QiLoc is a simple yet effective way to accurately locate and identify occupants inside buildings. By utilizing the Qi wireless charging protocol, a QiLoc-enabled desk is able to identify a mobile phone placed on it and therefore locate the user. The cloud-side QiLoc server maintains location information of occupants, and provides a set of APIs via standard web services, such as location, ad-hoc group membership, and authentication. We demonstrate a number of smart-building applications, such as an Android app to locate others in the same room, a Windows widget to popup notifications on colleagues entry/exit events, and a proof-of-concepts integrating precise and live location information with calendar, instant messaging, and email systems.
+    </div></div>
+    <div class="row"><div class="col-md-12">
+        <a href="../publications/BuildSys14_paper.pdf">[BuildSys14 Demo]</a> 
+      </div>
+    </div>
+    <ul class="padding-left-small">
+      <li>Designed and implented the QiLoc server.</li>
+      <li>Helped design some QiLoc usage scenario.</li>
+      <li>Helped write a demo abstract and submit to BuildSys14.</li>
+      <li>Currently, doing the data analytics based on the dense deployment.</li>
+    </ul>
+    <p></p>
+  </div>
+</p></div>
+
+  <h3><strong>Past Projects</strong></h3>
+
+<div class="row"><p>
+  <div class="col-md-3">
+    <img src="figs/livesynergy.png" width="280"/>
+  </div>
+  <div class="col-md-9">
+    <div class="row"><div class="col-md-12">
+        <strong>LiveSynergy: Bridging the Gap between Virtual and Physical Worlds</strong> 
+        <br>
+        LiveSynergy is a novel magnetic-based wireless proximity detection platform, with accuracy and consistency better than existing solutions such as BLE, WiFi, ZigBee, and long-range RFID. Building on top of this platform, we provide cloud-based APIs that enable real-time and rich interactions between humans and their physical environment. LiveSynergy enables a range of indoor applications such as location-based targeted advertising and presence detection.
+    </div></div>
+    <div class="row"><div class="col-md-12">
+        <a href="http://research.microsoft.com/en-us/projects/livesynergy/default.aspx">[website]</a> | <a href="../publications/BuildSys12_paper.pdf">[BuildSys12 Paper]</a> | <a href="../publications/MobileSensing12.pdf">[IPSN12 Workshop Paper]</a>
+      </div>
+    </div>
+    <ul class="padding-left-small">
+      <li>Developed and maintained the LiveSynergy cloud services and the windows phone portal</li>
+      <li>Developed and maintained a web portal for users to easily control and monitor hardware.</li>
+      <li>Design, implemented the "Accurate Real-Time Occupant Energy-Footprinting" system and did the evaluation.</li>
+    </ul>
+    <p></p>
+  </div>
+</p></div>
+
+<br>
+<br>
+
+<div class="row"><p>
+  <div class="col-md-3">
+    <img src="figs/thirdeye.png" width="280"/>
+  </div>
+  <div class="col-md-9">
+    <div class="row"><div class="col-md-12">
+        <br>
+        <br>
+        <strong>The ThirdEye: Your Guardian Against Myopia</strong> 
+        <br>
+        ThirdEye is a pair of smart glasses which could help people fight against myopia. It incorporates gyroscope, accelerometer, proximity and ambient light sensor in a small sensor board mounted on commercial glasses. It could recognize various scenarios in our daily life, and give alarm when the user violates given rules that may cause myopia, such as reading too close or in dimly conditions.The glasses could also log data, providing valuable information to the research of myopia. This work was presented to EWSN'13.
+    </div></div>
+    <div class="row"><div class="col-md-12">
+        <a href="../publications/EWSN13_paper.pdf">[EWSN13 Demo]</a>
+      </div>
+    </div>
+    <ul class="padding-left-small">
+      <li>Developed and Implemented the ThirdEye whole architecture.</li>
+      <li>Designed and implemented the mobile applications and the visualization.</li>
+      <li>Did the experiment and the evaluation.</li>
+    </ul>
+    <p></p>
+  </div>
+</p></div>
+
+
+
+<hr />
+
+</div>
+
+  </div>
+
+  <footer class="text-center">
+    &copy; <a href="http://yunnow.info/">Yun Cheng</a> 2014 - 2014 |
+    This site is built by <a href="http://middlemanapp.com/" target="_blank">Middleman</a> and
+    <a href="http://getbootstrap.com/">bootstrap</a>.
+  </footer>
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46697316-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+</body>
+</html>
